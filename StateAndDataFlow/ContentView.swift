@@ -4,7 +4,6 @@
 //
 //  Created by albik on 28.11.2022.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -32,9 +31,6 @@ struct ContentView: View {
     private func logout() {
         StorageManager.shared.clear(userManager: user)
     }
-//    private func logout() {
-//        user.isRegister.toggle()
-//    }
 }
 
 struct ContentView_Previews: PreviewProvider {

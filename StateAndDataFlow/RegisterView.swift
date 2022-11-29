@@ -12,7 +12,6 @@ struct RegisterView: View {
     @EnvironmentObject private var user: UserManager
     
 //    @AppStorage("user") private var userStorage = ""
-//    @AppStorage("user") private var userRegister = false
 
     private var activateButton: Bool {
         user.user.name.count < 3 ? true : false

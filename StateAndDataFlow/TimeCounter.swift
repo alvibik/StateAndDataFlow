@@ -46,7 +46,6 @@ final class TimeCounter: ObservableObject {
         }
         objectWillChange.send(self)
     }
-    
     private func killTimer() {
         timer?.invalidate()
         timer=nil
